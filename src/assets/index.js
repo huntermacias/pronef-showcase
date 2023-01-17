@@ -7,12 +7,8 @@ import javascript from "./javascript.png";
 import react from "./react.png";
 import scene from "./scene.png";
 import mockup from "./mockup.png";
-// import banner from "./banner"
-// import banner02 from "./banner02"
-// import banner03 from "./banner03"
-// import banner04 from "./banner04"
 
-export default {
+const assets = {
   homeHero,
   homeCards,
   feature,
@@ -22,8 +18,7 @@ export default {
   react,
   scene,
   mockup,
-  // banner,
-  // banner02,
-  // banner03,
-  // banner04
-};
+}
+
+
+export default assets;
